@@ -23,6 +23,6 @@ jobs:
                 echo "::endgroup::"
                 echo "Outside group"
             - name: Masking a value
-              run: "::add-mask:: Secret String"
+              run: "::add-mask::Secret String"
             - name: Echo a secret
               run: echo "Secret String"
